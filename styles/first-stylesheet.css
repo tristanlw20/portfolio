@@ -1,0 +1,23 @@
+html {
+	font-size: 16px
+}
+.main-class {
+	color:rebeccapurple;
+	text-align: center;
+}
+.aboutme-header {
+	color:green;
+	text-align: center;
+}
+.home-body {
+	background-image:url(../images/nissanGTR.jpg);
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+}
+.projectlinks:hover{
+	color:red;
+}
+.aboutme-body{
+	background-image:url(../images/sharks.jpg);
+	background-size: cover;
+	}
