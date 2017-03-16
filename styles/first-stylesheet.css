@@ -12,7 +12,6 @@ html {
 .home-body {
 	background-image:url(../images/nissanGTR.jpg);
 	background-size: cover;
-	/*background-repeat: no-repeat;*/
 }
 .projectlinks:hover{
 	color:red;
@@ -20,4 +19,37 @@ html {
 .aboutme-body{
 	background-image:url(../images/sharks.jpg);
 	background-size: cover;
+	color:purple;
+    font-weight: bold;
 	}
+.dummy1-header {
+    color:lavender;
+	text-align: center;
+}
+.dummy2-header{
+    color:aqua;
+	text-align: center;
+}
+.dummy1-body{
+	background-image:url(../images/dummy1.jpg);
+	background-size: 500px 500px;
+	}
+.dummy2-body{
+	background-image:url(../images/dummy2.jpg);
+	background-size: 500px 500px;
+	}
+.dummy1-article{
+    color:red;
+    font-weight: bold;
+    font-size: 30px
+}
+.dummy2-article{
+	color:forestgreen;
+	font-weight: bold;
+	font-size: 30px
+}
+footer{
+    position:absolute;
+    bottom:0;
+    font-weight: normal
+}
