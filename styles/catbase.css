@@ -1,0 +1,143 @@
+*{
+	font-family:calibri;
+	box-sizing: border-box;
+}
+.bodyclass {
+	background-color: black;
+}
+header{
+	padding-left:1rem;
+}
+.bookmeowhead{
+	position:absolute;
+	font-size:1.3rem;
+	right:1rem;
+	top:0.5rem;
+	color:red;
+}
+.mainheader{
+	color:white;
+	padding-top:2rem;
+	margin-bottom:0rem;
+	font-weight:normal;
+	font-size:3rem;
+}
+.subheader{
+	color:grey;
+	margin-top:0rem;
+	font-weight:normal;
+}
+.navlinks{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	background-color:grey;
+	width:100%;
+	padding: 1rem;
+	font-size: 1.5rem;
+	margin-bottom:0rem;
+}
+.aboutlink{
+	padding:0.5rem;
+}
+.rateslink{
+	padding:0.5rem;
+}
+.liabilitylink{
+	padding:0.5rem;
+}
+.profilelink{
+	padding:0.5rem;
+}
+.bookinglink{
+	padding:0.5rem;
+}
+main{
+	background-color:white;
+	width: 100%;
+	padding:1.5rem 0.5rem 2rem 0.5rem;
+	display:flex;
+	justify-content:center;
+}
+.article{
+	display: flex;  
+    flex-wrap: wrap;
+	margin-left:1rem;
+	margin-right: 1rem;
+	max-width:40rem;
+	align-content: flex-start;
+	font-size:1.3rem;
+}
+.article h2{
+	font-size:2rem;
+	font-weight:normal;
+	margin:0rem;
+}
+.article p{
+	margin-top:0.5rem;
+	margin-bottom:1rem;
+}
+.sect2{
+	font-style:italic;
+}
+.sidebox{
+	display: flex;  
+    flex-wrap: wrap;
+	max-width:25%;
+	border-style:solid;
+	border-width:0.12rem;
+	justify-content: center;
+}
+.sidebox h3{
+	font-weight:normal;
+	font-size: 1.5rem;
+	margin:1rem 2rem 0rem 2rem;
+	text-align:center;
+	width: 100%;
+}
+figure{
+	margin:0.5rem 0.5rem 0.5rem 0.5rem;
+	padding-bottom: 1rem;
+	/* padding-left:2rem;
+	padding-right:2rem; */
+}
+figcaption{
+	text-align:center;
+	font-size:1.2rem;
+	margin-bottom: 0.5rem
+}
+img{
+	height:100%;
+	width:100%;
+}
+.fig1p{
+	padding:0.5 0.5rem 0 0.5rem;
+	margin:1rem 1rem 0 1rem;
+
+}
+.sidebox nav{
+	padding:1rem;
+	width:100%;
+	text-align: right;
+}
+.bookbiscuit{
+	color:red;
+}
+.bookodin{
+	color:red;
+}
+.footer{
+	color:white;
+	padding-top:1rem;
+}
+.footer p{
+	margin:0rem;
+}
+.emaillink{
+	color:red;
+	font-style:normal
+}
+.copyright{
+	text-align:center;
+	padding-top:1rem;
+}

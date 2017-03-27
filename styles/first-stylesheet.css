@@ -1,55 +1,69 @@
-html {
-	font-size: 16px
+*{
+	font-family:calibri;
+	box-sizing: border-box;
+}
+.home-body {
+	display:flex;
+	flex-wrap: wrap;
+    padding:2rem;
+    background-color:black;
+	background-image:url(../images/nissanGTR.jpg);
+	background-size:100vh auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 2s ease 0s;
+}
+header{
+	width:100%;
 }
 .main-class {
-	color:rebeccapurple;
+	width:100%;
+	color:red;
 	text-align: center;
+}
+.projectlinks{
+	width:100%;
+	color:orange;
+}
+nav img{
+	margin-left:1rem;
+}
+ul li:nth-child(2n){
+	color:orange;
+}
+ul li:nth-child(2n+1){
+	color:red;
+}
+a:hover{
+	animation: 1s ease-out 0s infinite pulse;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 rgb(253, 254, 0); }
+  50% { box-shadow: 0 0 5rem rgb(253, 254, 0); }
+  100% { box-shadow: 0 0 0 rgb(253, 254, 0); }
 }
 .aboutme-header {
 	color:green;
 	text-align: center;
+	width:100%;
 }
-.home-body {
-	background-image:url(../images/nissanGTR.jpg);
-	background-size: cover;
-}
-.projectlinks:hover{
-	color:red;
-}
-.aboutme-body{
+.aboutme-body {
+	display:flex;
+	flex-wrap: wrap;
+    padding:2rem;
+    color:green;
+    background-color:black;
 	background-image:url(../images/sharks.jpg);
-	background-size: cover;
-	color:purple;
-	font-weight: bold;
-}
-.dummy1-header {
-	color:lavender;
-	text-align: center;
-}
-.dummy2-header{
-	color:aqua;
-	text-align: center;
-}
-.dummy1-body{
-	background-image:url(../images/dummy1.jpg);
-	background-size: 500px 500px;
-}
-.dummy2-body{
-	background-image:url(../images/dummy2.jpg);
-	background-size: 500px 500px;
-}
-.dummy1-article{
-	color:red;
-	font-weight: bold;
-	font-size: 30px
-}
-.dummy2-article{
-	color:forestgreen;
-	font-weight: bold;
-	font-size: 30px
+	background-size:100vh auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 2s ease 0s;
 }
 footer{
 	position:absolute;
 	bottom:0;
-	font-weight: normal
+	font-weight: normal;
+	margin-bottom:2rem;
 }
